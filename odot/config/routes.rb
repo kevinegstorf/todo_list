@@ -1,4 +1,6 @@
 Odot::Application.routes.draw do
+  get "user_sessions/new"
+  get "user_sessions/crate"
   resources :users
 
   resources :todo_lists do
