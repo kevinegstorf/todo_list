@@ -32,7 +32,6 @@ describe TodoListsController do
 
   before do
     sign_in(build_stubbed(:user))
-   
   end
 
   describe "GET index" do
