@@ -8,9 +8,25 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
- *= require_self
- *= require_tree .
+ *= require foundation_and_overrides
+ *= require_self 
+
  */
+
+
+@import 'modules/variables';
+@import 'modules/mixins';
+@import 'modules/helpers';
+@import 'partials/icons';
+@import 'partials/header';
+@import 'partials/footer';
+@import 'partials/lists';
+@import 'partials/todo_lists';
+@import 'partials/todo_items';
+
+
+
+
 div.alert {
   border: 2px solid #aaa;
   padding: 10px;
